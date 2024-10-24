@@ -14,6 +14,7 @@ public class SubarraySum {
                 al.add(i+1);
                 al.add(j+1);
                 break;
+                
              }
              return al;
             }

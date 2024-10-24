@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconciliation Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .action-required {
+            color: #FF5733;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <p><b>Subject : </b>[notification] Action Required for Discrepancy Resolution [txnDate]
+                </p>
+            <p>Dear [userName],</p>
+        
+            <p>We are writing to inform you that an important development in ARM reconciliation process requires your
+                attention.</p>
+
+            <p><strong>Notification Description:</strong> A discrepancy has been detected in a recent financial
+                transaction. The details of the transaction are as follows:</p>
+
+            <ul>
+                <li>Transaction Date: [txnDate]</li>
+                <li>Transaction Amount: [txnAmount]</li>
+                <li>Transaction Reference: [txnReference]</li>
+            </ul>
+
+            <p><strong>Discrepancy Details:</strong></p>
+
+            <ul>
+                <li>Expected Amount: [expectedAmount]</li>
+                <li>Actual Amount: [actualAmount]</li>
+            </ul>
+
+            <p class="action-required"><strong>Action Required:</strong> We kindly request your prompt attention to this
+                matter. To resolve this discrepancy, please take the following actions:</p>
+
+            <ol>
+                <li>Log in to the ARM console.</li>
+                <li>Navigate to the "Exception Management" section.</li>
+                <li>Review the transaction details and the provided reason for the discrepancy.</li>
+                <li>Take the necessary corrective actions to reconcile the transaction.</li>
+            </ol>
+
+            <p>Warm regards,<br>Team ARM</p>
+        </div>
+    </div>
+</body>
+
+</html>
